@@ -1,0 +1,10 @@
+input_txt = "Enter some text: "
+user_input = input(input_txt)
+new_str = user_input.replace("a","4")
+new_str = new_str.replace("b","8")
+new_str = new_str.replace("e","3")
+new_str = new_str.replace("l","1")
+new_str = new_str.replace("o","0")
+new_str = new_str.replace("s","5")
+new_str = new_str.replace("t","7")
+print(new_str)
